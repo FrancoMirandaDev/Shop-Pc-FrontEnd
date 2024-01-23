@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy Book 3",
+    "price": 999,
+    "imgUrl": "/imgs/samsung-galaxy-book3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Razer Blade 15",
+    "price": 1999,
+    "imgUrl": "/imgs/razer-blade-15.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro M1",
+    "price": 1200,
+    "imgUrl": "/imgs/macbook-m1.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Asus Zenbook 13",
+    "price": 1399,
+    "imgUrl": "/imgs/asus_zenbook-13.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dell Inspiron 15",
+    "price": 950,
+    "imgUrl": "/imgs/dell-inspiron-15.jpg"
+  },
+  {
+    "id": 6,
+    "name": "HP Envy 13",
+    "price": 999,
+    "imgUrl": "/imgs/hp-envy-13.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Lenovo Thinkpad X1",
+    "price": 1199,
+    "imgUrl": "/imgs/lenovo-thinkpad-x1-carbon.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Acer Nitro 5",
+    "price": 799,
+    "imgUrl": "/imgs/acer-nitro-5.jpg"
+  },
+  {
+    "id": 9,
+    "name": "MSI Raider GE76",
+    "price": 1299,
+    "imgUrl": "/imgs/MSI-Raider-GE76.jpg" 
+  }
+]
