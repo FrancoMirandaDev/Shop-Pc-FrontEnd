@@ -1,23 +1,24 @@
-
 # Shop PC
 
-This is a shop that allow sell your products.
-In this case, i going to sell PC, Netbook and MacBook.
-This shop have integrated **payment gateway** that allow validate your transaction. 
+This is a shop that allows you to sell your products.
+In this case, I am going to sell PCs, Netbooks, and MacBooks.
+This shop is a SPA(Single Page Application) has an integrated **payment gateway** that allows validating your transactions.
 
+## Tech Stack
 
+TypeScript, Javascript, ReactJS, Vite, Bootstrap, React Hooks.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](public/screenshot/Store-Pc.png)
+![App Screenshot](public/screenshot/Store-Pc-3.png)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/FrancoMirandaDev/Shop-Pc-FrontEnd
 ```
 
 Go to the project directory
@@ -38,7 +39,6 @@ Start the server
   npm run start
 ```
 
-
 ## Installation
 
 Install my-project with npm
@@ -47,4 +47,3 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-    
