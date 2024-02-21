@@ -2,7 +2,7 @@
 
 This is a shop that allows you to sell your products.
 In this case, I am going to sell PCs, Netbooks, and MacBooks.
-This shop is a SPA(Single Page Application) has an integrated **payment gateway** that allows validating your transactions.
+This shop is a SPA(Single Page Application) that allows navigate in this website more fast, has an integrated **payment gateway** that allows validating your transactions.
 
 ## Tech Stack
 
