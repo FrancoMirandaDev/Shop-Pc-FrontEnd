@@ -12,10 +12,22 @@ type ShoppingCartProps = {
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   const { closeCart, cartItems } = useShoppingCart()
 
-  const sendCartToBackend = async () => {
+  const sendCartToBackendStripe = async () => {
     console.log(cartItems)
     try{
-      await axios.post("http://localhost:9000/api/paymentStripe", {cartItems})
+      const response = await axios.post("http://localhost:9000/api/paymentStripe", {cartItems})
+      window.location.href = response.data.url
+    }
+    catch(error){
+      console.log(error)
+    }
+  }
+
+  const sendCartToBackendMercado = async () => {
+    console.log(cartItems)
+    try{
+      const response = await axios.post("http://localhost:9000/api/paymentMercado", {cartItems})
+      window.location.href = response.data.url
     }
     catch(error){
       console.log(error)
@@ -44,8 +56,8 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           <div className="d-grid gap-4">
             {cartItems.length > 0 && (
               <>
-                <button className="btn btn-primary" onClick={sendCartToBackend}>Checkout with Stripe <img src={`/svg/stripe.svg`} alt="stripe" className="p-1"/></button>
-                <button className="btn btn-primary" onClick={sendCartToBackend}>Checkout with MercadoPago<img src={`/svg/mercadopago.svg`} alt="mercadopago" className="p-1"/></button>
+                <button className="btn btn-primary" onClick={sendCartToBackendStripe}>Checkout with Stripe <img src={`/svg/stripe.svg`} alt="stripe" className="p-1"/></button>
+                <button className="btn btn-primary" onClick={sendCartToBackendMercado}>Checkout with MercadoPago<img src={`/svg/mercadopago.svg`} alt="mercadopago" className="p-1"/></button>
               </>
             )}
           </div>
