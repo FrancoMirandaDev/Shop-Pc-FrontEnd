@@ -6,7 +6,7 @@ This shop is a SPA(Single Page Application) that allows navigate in this website
 
 ## Tech Stack
 
-TypeScript, Javascript, ReactJS, Vite, Bootstrap, React Hooks.
+TypeScript, Javascript, ReactJS, Vite, Bootstrap, React Hooks, Docker
 
 ## Screenshots
 
